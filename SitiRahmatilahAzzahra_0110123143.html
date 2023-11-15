@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Seminar</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari pembimbing TA</h2>
+    <fieldset>
+        <legend>Form Daftar Seminar TA</legend>
+        <form action="form seminar.html" method="post">
+        <table>
+            <tr>
+                <td>NIM:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> <label for="Prodi">Prodi :</label></td>
+                <td>
+                    <select name="prodi" id="prodi">
+                       <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Informatika">Teknik Informatika</option>
+                        <option value="Bisnis Digital">Bisnis Digital</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tanggal Seminar:</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Jam Seminar:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Judul TA:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="Seminar">Seminar:</label></td>
+                <td>
+                    <select name="seminar" id="seminar">
+                        <option value="Proposal">Proposal</option>
+                        <option value="Profil">Profil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="Pembimbing">Pembimbing:</label></td>
+                <td>
+                    <select name="pembimbing" id="pembimbing">
+                        <option value="Sirojul Munir S SI,M.Kom">Sirojul Munir S SI,M.Kom</option>
+                        <option value="Misna Asqia, S.Kom, M.Kom">Misna Asqia, S.Kom, M.Kom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="Penguji 1:">Penguji 1:</label></td>
+                <td>
+                    <select name="penguji 1" id="penguji 1">
+                        <option value="Ahmad Rio M.SI">Ahmad Rio M.SI</option>
+                        <option value="Bachtiar Firdaus, S.T,M.P">Bachtiar Firdaus, S.T,M.P</option>
+                    </select>
+                </td>
+                <tr>
+                    <td> <label for="Penguji 2:">Penguji 2:</label></td>
+                    <td>
+                        <select name="penguji 2" id="penguji 2">
+                            <option value="Amalia Rahmah M.T">Amalia Rahmah M.T</option>
+                            <option value="Drs. Rusmanto,M.M.,">Drs. Rusmanto,M.M.,</option>
+                        </select>
+                    </td>
+                </tr>
+        </table>
+        <br>
+        <input type="submit" value="Daftar">
+    </fieldset>
+</body>
+</html>
